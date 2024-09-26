@@ -1,6 +1,18 @@
 Sclable XML Lint - Changelog
 ============================
 
+0.8.0
+-----
+
+* Add support for Symfony 7
+* Drop support for Symfony 4
+============================
+
+0.7.0
+-----
+
+* Add support for PHP 8.3
+
 0.6.0
 -----
 
