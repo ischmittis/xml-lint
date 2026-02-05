@@ -3,7 +3,7 @@
 /**
  * This file is part of the Sclable Xml Lint Package.
  *
- * @copyright (c) 2022 Sclable Business Solutions GmbH
+ * @copyright (c) 2025 Sclable Business Solutions GmbH
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -49,7 +49,7 @@ class ValidationCollectionTest extends TestCase
         $this->assertEquals($expected, $collection->validateFile(FileReport::create('some_file.xml')));
     }
 
-    public function getMockReturnValues()
+    public static function getMockReturnValues()
     {
         return [
             [true, true, true],
